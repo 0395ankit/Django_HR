@@ -16,6 +16,7 @@ techlist = (
     ('HR_Round_Interviewer_Name', 'HR_Round_Interviewer_Name')
 )
 
+
 class UploadFileForm(forms.ModelForm):   # Class to make forms directly from the model: Main Page
     DateOfDrive = forms.DateField(widget=forms.DateInput(format='%d/%m/%Y'), input_formats=('%d/%m/%Y',), required=True)
     NameOfDrive = forms.CharField(required=True)
@@ -28,8 +29,14 @@ class UploadFileForm(forms.ModelForm):   # Class to make forms directly from the
 class analysisForm(forms.Form):
 
     GroupBy = forms.ChoiceField(choices=techlist)
-    where = forms.CharField()
+    where = forms.CharField(required=False)
     datefrom = forms.DateField(initial="2019-01-01")
     dateto = forms.DateField(initial=date.today())
+
+
+class groupbyForm(forms.Form):
+
+    GroupBy = forms.ChoiceField(choices=techlist)
+
 
 

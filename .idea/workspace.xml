@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8fe75e9-4b27-420e-a89c-1f6f9810558e" name="Default Changelist" comment="" />
+    <list default="true" id="f8fe75e9-4b27-420e-a89c-1f6f9810558e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload/UploadFile/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/UploadFile/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload/UploadFile/templates/groupby.html" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/UploadFile/templates/groupby.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload/UploadFile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/UploadFile/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload/UploadFile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/UploadFile/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Upload/df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Upload/df.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +21,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TmpQSfPu8j1MBrLgTlHpt4oRLN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/django-plotly-dash-master" />
   </component>
   <component name="RecentsManager">
@@ -125,6 +137,17 @@
       <updated>1574075109020</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+    <form action=""  method="post">
+
+        {% csrf_token %}
+
+        <table>
+            {{ form.as_p }}
+        </table>
+
+          <input type="submit">
+        </form>
+
+
 </body>
 </html>
